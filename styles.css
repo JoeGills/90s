@@ -1,0 +1,79 @@
+/** {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+html {
+  font-size: 16px;
+}*/
+header {
+    background-image: url("https://thumbs.gfycat.com/IncompatibleTiredHawaiianmonkseal-max-1mb.gif");
+   object-fit: contain;
+  }
+  body {
+    background-color: none;
+    background-image: url("https://i.pinimg.com/originals/a1/3c/2d/a13c2d0777ed7931b6969616ff2e74b5.gif");
+  }
+
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
+    border: 1px solid rgb(207, 114, 250);
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 99px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(52, 31, 135);
+    text-decoration: underline;
+  }
+  
+  .active {
+    background-color: rgba(0, 255, 115, 0.543);
+  }
+
+  h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: none;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: rgba(46, 91, 240, 0.4) -5px 5px, rgba(46, 153, 240, 0.852) -10px 10px, rgba(76, 5, 218, 0.2) -15px 15px, rgba(179, 46, 240, 0.404) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;    
+    text-align: left;
+  }
+  
+  .flex-container > div 1{
+    background-color: none;
+    width: 100px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+  }
+  
+
+@media screen and (min-width: 600px) {
+  header {
+    object-fit: cover;
+  }
+ 
+}
+  
