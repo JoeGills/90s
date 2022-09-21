@@ -49,13 +49,17 @@ ul {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
+  h2 {
+    color: cyan;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+  }
   .flex-container {
     display: flex;
     align-items: stretch;
     background-color: none;
     justify-content: center;
     justify-content: space-around;
-    box-shadow: rgba(46, 91, 240, 0.4) -5px 5px, rgba(46, 153, 240, 0.852) -10px 10px, rgba(76, 5, 218, 0.2) -15px 15px, rgba(179, 46, 240, 0.404) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;    
     text-align: left;
   }
   
@@ -70,10 +74,44 @@ ul {
   }
   
 
-@media screen and (min-width: 600px) {
+
+  
+
+
+.player{
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  align-items: center;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+  background-color: bisque;
+  padding: 2rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+.videoPlayer{
+  background-color: aqua;
+  box-shadow: rgba(209, 6, 94, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.rowPlayer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.circle 
+  {
+  border-radius:50%;
+  width:100px;
+  height:100px;
+  object-fit: cover;
+  float: left;
+  }
+@media screen and (min-width: 500px) {
   header {
     object-fit: cover;
   }
  
 }
-  
