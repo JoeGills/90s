@@ -14,7 +14,7 @@
       <nav>
         <ul>
           <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#habout" class="active">About</a></li>
+          <li><a href="#About" class="active">About</a></li>
           <li>
             <a href="https://www.wtatennis.com/" class="active" target="_blank"
               >WTA</a
@@ -25,11 +25,12 @@
               >ATP</a
             >
           </li>
-          <li><a href="#contact" class="active">Contact</a></li>
+          <li><a href="#Contact" class="active">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <button onclick="topFunction()" id="myButton" title="Go to top">Home</button>
       <td style="vertical-align: middle">
         <h2 style="text-align: center">THE BEST PLAYERS OF 90s</h2>
         <p style="text-align: center">
@@ -130,24 +131,50 @@
           </div>
           <iframe width="350" height="200" src="https://www.youtube.com/embed/3_OSDb_liXg" title="Stefan Edberg - All 6 Grand Slam Championship points" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-      </section>
+        <div id="About">
+          <div class="About">
+          <img style="border: 5px groove gold"src=".\images\IMG-20220803-WA0000.jpg"
+                alt="Joseph Gills"
+               class ="circle"/>
+              <p style="text-align: left"><b> Joseph Gills</b></p>
+              <p style="text-align:left">
+                A freelance list writer for this website, He has already written well
+                over 100 pieces for the site since he began in 2021. His work featured in magazines, it was only recently that he
+                combined this with his keen interest in all things like tennis, film and TV.
+              </p>
+            </div>
+          </div>
+          <div id="Contact">
+            <div class="Contact">
+              <form>  
+                <label> Firstname </label> <br>        
+                <input type="text" name="firstname" size="15"/> <br> 
+                <label> Lastname: </label><br>         
+                <input type="text" name="lastname" size="15"/> <br> 
+                <label>   
+                  Gender :  
+                  </label><br>  
+                  <input type="radio" name="gender"/> Male 
+                  <input type="radio" name="gender"/> Female 
+                  <input type="radio" name="gender"/> Other  
+                  <br>  
+                  <label>
+                  <br>
+                  Email :
+                  <input type="email" id="email" name="email"> 
+                  <br>
+                  <textarea cols="50" rows="20"></textarea>
+                  <br> 
+                  <input type="submit" value="Submit"> 
+                  <br> 
+              </div>
+            </div>
+          </section>
     </main>
-
+<script src ="script.js">
+</script>
     <footer>
-      <h4 style="text-align: left">Joseph Gills</h4>
-      <img style="border: 5px groove gold"src=".\images\IMG-20220803-WA0000.jpg"
-              alt="Joseph Gills"
-             class ="circle" 
-            />
-      <p style="text-align:left">
-        <br>
-        A freelance list writer for this website, He has already written well
-        over 100 pieces for the site since he began in 2021. Though he has been
-        writing for most of his life, having been a content writer in the past
-        and had his work featured in magazines, it was only recently that he
-        combined this with his keen interest in all things like tennis, film,
-        TV, and video.
-      </p>
+      
     </footer>
   </body>
 </html>
